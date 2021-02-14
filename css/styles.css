@@ -6,11 +6,13 @@ a {
 
 /* псевдоклассы состояния */
 
-.site-nav a:hover,
-.site-nav a:focus,
-.contacts a:hover,
-.contacts a:focus,
-.team-list a:hover,
-.team-list a:focus {
+.site-nav-link:hover,
+.site-nav-link:focus,
+.contacts-item:hover,
+.contacts-item:focus,
+.team-socials-link:hover,
+.team-socials-link:focus,
+.footer-socials a:hover,
+.footer-socials a:focus {
   color: rgba(33, 150, 243, 1);
 }
