@@ -1,0 +1,16 @@
+/* общие стили */
+
+a {
+  text-decoration: none;
+}
+
+/* псевдоклассы состояния */
+
+.site-nav a:hover,
+.site-nav a:focus,
+.contacts a:hover,
+.contacts a:focus,
+.team-list a:hover,
+.team-list a:focus {
+  color: rgba(33, 150, 243, 1);
+}
