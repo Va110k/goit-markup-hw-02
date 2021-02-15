@@ -1,18 +1,40 @@
+/* основной цвет текста  212121 */
+/* вторичный цвет текста 757575 */
+/* белый 757575 */
+/* синий цвет лого и акцент 2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* фон футера #2F303A */
+
 /* общие стили */
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
 
 a {
   text-decoration: none;
 }
 
-/* псевдоклассы состояния */
+.list {
+  list-style: none;
+}
+
+.header-logo {
+  color: #000000;
+}
+
+/* акцент */
 
 .site-nav-link:hover,
 .site-nav-link:focus,
-.contacts-item:hover,
-.contacts-item:focus,
+.contacts-tel-link:hover,
+.contacts-tel-link:focus,
+.contacts-mail-link:hover,
+.contacts-mail-link:focus,
 .team-socials-link:hover,
 .team-socials-link:focus,
-.footer-socials a:hover,
-.footer-socials a:focus {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
   color: rgba(33, 150, 243, 1);
 }
