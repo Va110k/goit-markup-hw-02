@@ -1,8 +1,90 @@
+/* общие стили */
+
+/* основной цвет текста  #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* синий цвет лого и акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+/* фон футера #2F303A */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-logo-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
 a {
   text-decoration: none;
 }
 
-.link:focus,
-.link:hover {
-  color: #2196f3;
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+/* hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.contacts .link {
+  color: var(--secondary-text-color);
+}
+
+/* features */
+
+.features .desc,
+.section .desc {
+  color: var(--secondary-text-color);
+}
+
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+/* акцент */
+
+.link:hover,
+.link:focus {
+  color: var(--accent-logo-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .adress {
+  color: var(--primary-background-color);
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 60);
+}
+
+.footer-logo {
+  color: #ffffff;
 }
