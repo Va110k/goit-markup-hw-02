@@ -100,7 +100,22 @@ a {
   background-color: var(--accent-color);
 }
 
-.button .secondary {
+/* Портфолио */
+
+.button-secondary {
+  background-color: var(--secondary-background-color);
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
+}
+
+.projects .nav {
+  color: var(--secondary-text-color);
+}
+
+.projects .title {
+  color: var(--primary-text-color);
 }
