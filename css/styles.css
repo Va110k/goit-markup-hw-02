@@ -19,6 +19,11 @@
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 a {
@@ -29,8 +34,14 @@ a {
   list-style: none;
 }
 
+/* logo */
+
 .logo {
   color: #000000;
+
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /* hero */
@@ -41,20 +52,51 @@ a {
 
 .hero-title {
   color: var(--primary-background-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* nav */
 
 .site-nav .link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts .link {
   color: var(--secondary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* features */
 
-.features .desc,
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.features .title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features .desc {
+  color: var(--secondary-text-color);
+}
+
 .section .desc {
   color: var(--secondary-text-color);
 }
@@ -65,6 +107,18 @@ a {
   background-color: var(--secondary-background-color);
 }
 
+.team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.section .position {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+}
 /* акцент */
 
 .link:hover,
@@ -91,6 +145,11 @@ a {
 
 .footer-logo {
   color: var(--primary-background-color);
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /* button */
@@ -98,12 +157,28 @@ a {
 .button {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 /* Портфолио */
 
 .button-secondary {
   background-color: var(--secondary-background-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  cursor: pointer;
 }
 
 .button-secondary:hover,
@@ -114,8 +189,16 @@ a {
 
 .projects .nav {
   color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 .projects .title {
   color: var(--primary-text-color);
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
