@@ -44,6 +44,10 @@ a {
   line-height: 1.19;
 }
 
+.logo .accent {
+  color: var(--accent-color);
+}
+
 /* hero */
 
 .hero {
@@ -150,6 +154,10 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+
+.footer-logo .accent {
+  color: var(--accent-color);
 }
 
 /* button */
